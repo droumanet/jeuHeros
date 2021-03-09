@@ -3,7 +3,8 @@
  * auteur : david ROUMANET
  * version : 0.2 (alpha)
  * date : 01 mars 2021
- * */
+ * 09/03/2021 Mise en place de GIT
+ * =================================================================================================================== */
 
 using System;
 using System.Collections.Generic;
