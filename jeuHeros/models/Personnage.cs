@@ -6,12 +6,20 @@ using System.Threading.Tasks;
 
 namespace jeuHeros.models {
     public class Personnage {
-        public String pseudo;
+        protected String pseudo;
         public Char sexe;           // permettre les autres (PAN, robots, extraterrestres, fantômes, etc.)
         public int pointVie;
         public int niveau;
         public int experienceNiveau;    // pourcentage permettant le calcul de passage prochain niveau
 
+        public String getPseudo() {
+            return this.pseudo;
+        }
+        public void setPseudo(String pseudo) {
+            this.pseudo = pseudo;
+        }
+
+        // Les constructeurs
         public Personnage(String nom) {
             this.pseudo = nom;
         }

@@ -20,7 +20,7 @@ namespace jeuHeros {
         static void Main(string[] args) {
             Personnage human = new Personnage("Francis");
             Guerrier barbare = new Guerrier("Conan", 150);
-            Console.WriteLine("un humain {0} et un barbare {1} ont été créés.", human.pseudo, barbare.pseudo);
+            Console.WriteLine("un humain {0} et un barbare {1} ont été créés.", human.getPseudo(), barbare.getPseudo());
             Console.ReadKey();
         }
     }
